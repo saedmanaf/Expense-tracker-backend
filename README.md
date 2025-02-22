@@ -1,59 +1,55 @@
 💰 Expense Tracker – RESTful API with Java & H2 Database
 
-
-
-🚀 A simple, no-nonsense expense tracking API – built to solidify my RESTful CRUD + database skills.
+🚀 A simple, no-nonsense expense tracking API—built to solidify my RESTful CRUD + database skills and push my Java Spring Boot knowledge further.
 
 
 
 🎯 Why This Project?
+I’m four months into my Java course, and this project helps me:
 
-
-I'm currently four months into my Java course and using this project to:
-
-
-✔ Master RESTful API development with Spring Boot
+✔ Master Spring Boot & RESTful API development
 ✔ Implement full CRUD functionality on expenses
-✔ Work with relational databases using H2 (for now, might swap later) ✔ Break things, fix them, learn, repeat
+✔ Work with relational databases (H2 for now, PostgreSQL later)
+✔ Break things, fix them, learn fast
 
 
-It’s a work-in-progress, and once endpoints are fully fixed, this repo will be public!
+
+📢 Once all endpoints are fixed, this repo goes public!
 
 
-💡 Also, let’s be real – I’m maxing out my sweet-sweet free IntelliJ Ultimate account while I still can. Once my student status expires, I’ll probably cry into my open-source editor.
+
+💡 Also, let’s be real—I’m maxing out my free IntelliJ Ultimate while I still can. Once my student status expires, VS Code it is.
 
 
-End goal? Build a solid portfolio to land an internship or (if I’m lucky) a job!
+👀 End goal? A solid portfolio → internship → job (hopefully!)
 
 
 
 🛠️ Tech Stack
-
-
 🔹 Backend: Java + Spring Boot
-🔹 Database: H2 (in-memory for now, might switch to PostgreSQL later)
+🔹 Database: H2 (in-memory for now, PostgreSQL later)
 🔹 API Documentation: Swagger UI
-🔹 Authentication: TBD (maybe JWT?)
 🔹 Testing: JUnit + Mockito
 🔹 IDE: IntelliJ Ultimate (before I go broke)
 
 
 
-📌 Features (Planned & Implemented)
+📌 Features
+✅ Implemented
+✔ CRUD Operations – Add, edit, delete, fetch expenses
+✔ Swagger UI – Auto-generated API documentation & testing
+✔ H2 Console – Inspect the database directly from the browser
+✔ Error Handling & Validations – Prevent weird crashes
+
+🚧 In Development
+🔜 Authentication – Probably JWT (or Firebase, if I’m lazy)
+🔜 PostgreSQL/MySQL Support – Once I finalize the schema
+🔜 Better Exception Handling – Because I will forget a case
 
 
-✅ CRUD Operations – Add, edit, delete, and fetch expenses
-✅ Swagger UI – API documentation & testing
-✅ H2 Console – Debugging database directly in the browser
-✅ Error Handling & Validations – No weird, unexpected crashes (hopefully)
-🔜 User Authentication – Probably JWT or Firebase, depending on vibes
-🔜 PostgreSQL / MySQL Support – Once I finalize the structure
 
 
-
-🚀 Endpoints Overview
-
-
+⚡ API Endpoints Overview
 Method	Endpoint	Description
 GET	/api/expenses	Fetch all expenses
 GET	/api/expenses/{id}	Get expense by ID
@@ -64,58 +60,57 @@ DELETE	/api/expenses/{id}	Remove an expense
 
 
 
-⚡ Current Progress
 
-
+⚡ Progress So Far
 ✔ Backend CRUD working
 ✔ H2 Database hooked up
 ✔ Swagger UI enabled
-❌ Authentication (soon™)
-❌ Frontend (maybe React? Maybe not?)
+❌ Authentication (coming soon)
+❌ Frontend (not sure if I’ll build one)
+
 
 
 
 💡 Lessons Learned So Far
+📌 Spring Boot is magic … until you debug for hours.
+📌 H2 is amazing for testing but not great for production.
+📌 Writing clean endpoints is easy … handling edge cases isn’t.
+📌 Swagger is a lifesaver for API documentation.
 
-
-Spring Boot is magic. Until it isn’t, and then you debug for hours.
-H2 is fantastic for testing but probably not ideal for production.
-Writing clean endpoints is easy. Handling edge cases & errors? Not so much.
-Swagger is a lifesaver.
 
 
 
 🎯 Next Steps
-
-
 🔹 Fix any broken endpoints & validate inputs properly
-🔹 Add authentication (probably JWT?)
-🔹 Refactor code for better structure & efficiency
-🔹 Deploy (if I don’t break everything first)
+🔹 Implement authentication (JWT or Firebase)
+🔹 Refactor code for better structure
+🔹 Deploy (without breaking everything)
+
 
 
 
 🌟 Contributions & Feedback
-💡 Open to feedback! If you spot something off or want to suggest improvements, I’d love to hear from you.
+💡 Open to feedback! Spot something off? Have an idea? Let me know!
+
 
 
 
 📬 Reach out: [elisemarieveskioja@gmail.com]
+⭐ Star this repo if you like it—or just to support my IntelliJ addiction.
 
-
-
-⭐ Star this repo if you think it’s cool – and to support my IntelliJ dependency.
 
 
 
 😂 Final Thoughts
 If you’ve made it this far, you’re either:
-✅ Actually interested in my project (thanks, you're awesome!)
-✅ A recruiter skimming for red flags
-✅ Lost and confused but vibing with the energy
+
+✅ Actually interested in my project (Thanks, you’re awesome!)
+✅ A recruiter skimming for red flags (Hi, I’m a fast learner!)
+✅ Lost but vibing with the energy
 
 
-Either way, welcome! 😆
 
-🚀 Follow along as I build this into something cool.
+Either way—welcome! 🚀
+
+Follow along as I build this into something cool.
 
