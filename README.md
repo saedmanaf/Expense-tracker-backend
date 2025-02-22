@@ -81,7 +81,7 @@ DELETE	/api/expenses/{id}	Remove an expense
 Spring Boot is magic. Until it isn’t, and then you debug for hours.
 H2 is fantastic for testing but probably not ideal for production.
 Writing clean endpoints is easy. Handling edge cases & errors? Not so much.
-Swagger is a lifesaver. No more manually testing every route with Postman.
+Swagger is a lifesaver.
 
 
 
