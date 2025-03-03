@@ -1,7 +1,7 @@
-package com.example.demo.service;
+package com.example.expensetracker.service;
 
-import com.example.demo.model.Expense;
-import com.example.demo.repository.ExpenseRepository;
+import com.example.expensetracker.model.Expense;
+import com.example.expensetracker.repository.ExpenseRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

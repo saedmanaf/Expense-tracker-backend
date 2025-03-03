@@ -1,7 +1,7 @@
-package com.example.demo.controller;
+package com.example.expensetracker.controller;
 
-import com.example.demo.model.Expense;
-import com.example.demo.service.ExpenseService;
+import com.example.expensetracker.model.Expense;
+import com.example.expensetracker.service.ExpenseService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.ResponseEntity;

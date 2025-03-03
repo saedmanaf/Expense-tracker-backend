@@ -1,6 +1,6 @@
-package com.example.demo.repository;
+package com.example.expensetracker.repository;
 
-import com.example.demo.model.Expense;
+import com.example.expensetracker.model.Expense;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
