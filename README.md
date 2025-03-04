@@ -6,7 +6,7 @@ Expense-tracker–backend
 
 
 
-Tech Stack:
+🔧 Tech Stack:
 
 Java 17
 
@@ -25,7 +25,8 @@ Swagger UI (API Docs & Testing)
 JUnit 5 & Mockito (Unit & Integration Tests)
 
 
-Features:
+
+🚀 Features:
 
 Full CRUD Operations: Add, edit, delete & retrieve expenses
  
@@ -39,7 +40,7 @@ Exception Handling: Global error handling for stability
 
 
 
-API Endpoints:
+🌍 API Endpoints:
 
 GET /api/expenses Fetch all expenses
 
@@ -53,7 +54,7 @@ DELETE /api/expenses/{id} Remove an expense
 
 
 
-Testing Coverage:
+🧪 Testing Coverage:
 
 This backend is fully tested, using JUnit 5 & Mockito:
 
@@ -65,7 +66,7 @@ Integration Testing (API Behavior Validation)
 
 
 
-Setup Database:
+🏗️ Setup Database:
 
 Default: H2 (in-memory, no setup needed)
 
@@ -78,7 +79,6 @@ Run Spring Boot App
 Test API Endpoints
 
 Swagger UI: http://localhost:8080/swagger-ui.html
-
 
 
 
