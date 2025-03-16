@@ -1,93 +1,47 @@
-Expense-tracker–backend
+# Expense Tracker Backend
 
+Welcome to the backend of the Expense Tracker Full-Stack Project! This robust RESTful API is built with Spring Boot and PostgreSQL, designed meticulously for tracking expenses, scanning receipts, and managing financial records. 💸
 
+## What is This?
+This backend handles all the heavy lifting for the Expense Tracker. It's built to endure the demands of precise bookkeepers and budget-savvy users alike.
 
-💻 Backend for the Expense Tracker Full-Stack ProjectThis is the RESTful API for the Expense Tracker, built with Spring Boot and PostgreSQL.Designed for expense tracking, receipt scanning, and financial management, this API supports full CRUD operations and integrates testing for reliability.
+### Tech Stack:
+- **Java 17**: Modern Java, because we're fancy like that.
+- **Spring Boot 3**: For robust back-end services.
+- **Spring Data JPA & Spring Validation**: Because data matters and so does its integrity.
+- **H2 Database**: For testing without tears.
+- **PostgreSQL**: For production because we're serious about data.
+- **Swagger UI**: For easy testing and beautiful documentation.
+- **JUnit 5 & Mockito**: For making sure everything actually works.
 
+### Features:
+- **Full CRUD Operations**: Create, Read, Update, Delete — all your expenses are under your control.
+- **Database Persistence**: From H2 in dev to PostgreSQL in production.
+- **Swagger UI**: Auto-generated docs that make testing a breeze.
+- **Exception Handling**: We handle errors gracefully, keeping the backend stable.
 
+### Api Endpoints:
+- GET /api/expenses: Fetch all the money you've ever spent.
+- GET /api/expenses/{id}: Get an expense by ID.
+- POST /api/expenses: Confess a new expense.
+- PUT /api/expenses/{id}: Update the details of an existing expense.
+- DELETE /api/expenses/{id}: Forget an expense ever happened.
 
-🔧 Tech Stack:
+### Testing Coverage:
+- Service Layer Testing: We mock the repositories to test service logic.
+- Controller Testing: We use MockMVC to ensure our endpoints are top-notch.
+- Integration Testing: Full API behavior validation — nothing gets past us.
 
-Java 17
+### Setup Database:
+- Default: H2 
+- For Production: Switch to PostgreSQL.
 
-Spring Boot 3
+### Contribute:
+- This project is open-source. Contributions are not just welcome, they're celebrated! 🎉
 
-Spring Data JPA
+### Star This Repo
+Support the project by starring this repo!
 
-Spring Validation
+## Contact & Feedback:
 
-H2 Database (for testing)
-
-PostgreSQL (for production)
-
-Swagger UI (API Docs & Testing)
-
-JUnit 5 & Mockito (Unit & Integration Tests)
-
-
-
-🚀 Features:
-
-Full CRUD Operations: Add, edit, delete & retrieve expenses
- 
-Database Persistence: H2 (dev/testing) → PostgreSQL (production)
-
-Swagger UI: Auto-generated API documentation
-
-Unit & Integration Testing: Controller & Service Layer Tested
-
-Exception Handling: Global error handling for stability
-
-
-
-🌍 API Endpoints:
-
-GET /api/expenses Fetch all expenses
-
-GET /api/expenses/{id} Get an expense by ID
-
-POST /api/expenses Add a new expense
-
-PUT /api/expenses/{id} Update an existing expense
-
-DELETE /api/expenses/{id} Remove an expense
-
-
-
-🧪 Testing Coverage:
-
-This backend is fully tested, using JUnit 5 & Mockito:
-
-Service Layer Testing (Mocks Repository)
-
-Controller Testing (MockMVC)
-
-Integration Testing (API Behavior Validation)
-
-
-
-🏗️ Setup Database:
-
-Default: H2 (in-memory, no setup needed)
-
-Switch to PostgreSQL in application.properties
-
-Run Spring Boot App
-
-./gradlew bootRun
-
-Test API Endpoints
-
-Swagger UI: http://localhost:8080/swagger-ui.html
-
-
-
-🏆 Contribute, this project is open-source! PRs, issues, and discussions are welcome.
-
-
-
-🌟 Star this repo to support the project & stay updated!
-
-
-
-👯 Contact & Feedback: elisemarieveskioja@gmail.com
+ [Connect with me on LinkedIn](https://www.linkedin.com/in/elise-marie-veskioja-9b2769312/) 
