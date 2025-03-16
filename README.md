@@ -1,3 +1,15 @@
+![Java](https://img.shields.io/badge/java-17-red.svg)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.0-brightgreen.svg)
+![H2 Database](https://img.shields.io/badge/H2-Testing-blue.svg)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Production-blue.svg)
+![Swagger UI](https://img.shields.io/badge/Swagger_UI-for_API_docs_and_testing-green.svg)
+![JUnit](https://img.shields.io/badge/JUnit-5-orange.svg)
+![Mockito](https://img.shields.io/badge/Mockito-Testing-yellowgreen.svg)
+![Build](https://img.shields.io/badge/build-passing-brightgreen.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Stars](https://img.shields.io/github/stars/EMVeskioja/Expense-tracker-backend?style=social)
+![Forks](https://img.shields.io/github/forks/EMVeskioja/Expense-tracker-backend?style=social)
+
 # Expense Tracker Backend
 
 Welcome to the backend of the Expense Tracker Full-Stack Project! This robust RESTful API is built with Spring Boot and PostgreSQL, designed meticulously for tracking expenses, scanning receipts, and managing financial records. 💸
