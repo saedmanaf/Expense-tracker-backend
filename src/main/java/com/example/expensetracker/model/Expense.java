@@ -22,13 +22,8 @@ public class Expense {
     private LocalDate date;
     private String description;
 
-    public Expense(Long id, String name, double amount, String category, LocalDate date, String description) {
-        this.id = id;
-        this.name = name;
-        this.amount = BigDecimal.valueOf(amount);  // Convert double to BigDecimal
-        this.category = "Uncategorized";  // Provide a default category
-        this.date = LocalDate.now();  // Default date if not provided
-        this.description = "";
+    public Expense(Long id, String name, double amount) {
+        this(id, name,BigDecimal.valueOf(amount),"Uncategorized",LocalDate.now(),"");
     }
 
 }
