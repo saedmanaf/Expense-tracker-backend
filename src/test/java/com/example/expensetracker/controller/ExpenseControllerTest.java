@@ -4,9 +4,11 @@ import com.example.expensetracker.model.Expense;
 import com.example.expensetracker.service.ExpenseService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
-import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Import;
 import org.springframework.http.MediaType;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.web.servlet.MockMvc;
@@ -18,18 +20,27 @@ import java.util.List;
 
 import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @WebMvcTest(ExpenseController.class) // Only loads ExpenseController
 @ExtendWith(SpringExtension.class)
+@Import(ExpenseControllerTest.TestConfig.class) // Import test config with mocked bean
 class ExpenseControllerTest {
 
     @Autowired
     private MockMvc mockMvc;
 
-    @MockBean
+    @Autowired
     private ExpenseService expenseService;
+
+    static class TestConfig {
+        @Bean
+        public ExpenseService expenseService() {
+            return Mockito.mock(ExpenseService.class);
+        }
+    }
 
     @Test
     void shouldGetAllExpenses() throws Exception {
